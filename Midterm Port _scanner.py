@@ -10,7 +10,7 @@ PORT_RANGE = range(1, 1024) # 1-1023
 SCAN_DELAY = 0.1
 
 #Define the maximum number of concurrent connections
-MAX_CONCURRENT_CONNECTIONS = 5
+MAX_CONCURRENT_CONNECTIONS = 100
 
 #Create a socket object
 socket_object = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
