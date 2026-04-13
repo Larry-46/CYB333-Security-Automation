@@ -4,7 +4,7 @@ import threading
 
 #Define the target host and port range
 TARGET_HOST = "127.0.0.1" # localhost
-PORT_RANGE = range(1, 1024) # 1-1023
+PORT_RANGE = range(1, 5000) # 1-5000
 
 #Define the delay between scan attempts (in seconds)
 SCAN_DELAY = 0.1
